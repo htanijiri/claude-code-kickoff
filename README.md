@@ -61,7 +61,7 @@ CLAUDE.md などにある `<!-- -->` の部分は、`/kickoff` で Claude が BR
 | `docs/HISTORY.md` | 主要な設計判断とその理由、開発の時系列 |
 | `docs/DEPLOY.md` | デプロイ・動作確認・ロールバックの手順 |
 | `.claude/skills/kickoff/` | `/kickoff` スキル。BRIEF を読む → 未決事項を質問する → 仕様書をすべて書く → 合意をもらう → 最後まで実装する、の手順 |
-| `.claude/settings.json`, `.claude/hooks/` | 作業ジャーナルを自動記録する hook と、仕様書の状態の書き方（決まった5つの語だけ）を確認する hook |
+| `.claude/settings.json`, `.claude/hooks/` | 作業ジャーナルを自動記録する hook、仕様書の状態の書き方（決まった5つの語だけ）を確認する hook、Claude ができる作業をユーザーに頼んでいないかを応答の終わりに AI が判定する hook |
 | `.gitignore` | brief/・journal/・秘密情報・ビルド出力など、よく使う除外設定 |
 
 ## テンプレートを直すとき
